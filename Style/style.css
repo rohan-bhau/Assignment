@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    width: 71%;
+    max-width: 1600px;
+    height: 92px;
+    align-items: center;
+    /*color: #FFFFFF;*/
+}
+nav .logo{
+    margin: 16px 16px 0px 120px;
+}
+nav .menu-container{
+     margin: 34px 320px;
+     color: #000000;
+        
+}
+nav .menu{
+    width: 365px;
+    height: 24px;
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    line-height: 152%;
+}
+.button{
+    margin: 24px 120px 24px 346px;
+}
+button{
+    width: 164px;
+    height: 44px;
+    color: #FFFFFF;
+    background-color: #469165;
+    margin: 12.5px 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
