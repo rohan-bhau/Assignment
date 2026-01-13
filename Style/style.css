@@ -308,7 +308,65 @@ button{
     gap: 5px;
 }
 
-t.solution-list li img{
+.solution-list li img{
     width: 20px;
     height: 20px;
+}
+
+#early-access{
+    background-color: #F7F6F2;
+    width: 1360px;
+    margin: 2px 120px 120px 120px;
+    padding: 80px 40px;
+    justify-self: center;
+    border-radius: 12px;
+
+}
+.early-access-container{
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+}
+.early-access-container h2{
+    color: #001931;
+    font-size: 40px;
+    padding: 16px;
+}
+.early-access-container p{
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 24px;
+    font-size: 16px;
+
+}
+
+ .early-access-container .challenge-button{
+    width: 194px;
+    display: inline;
+ }
+ .early-access-container button{
+    color: #FFFFFF;
+    background-color: #469165;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 4px;
+    text-decoration: none;
+    padding-left: 8px;
+ }
+
+.early-access-container button img{
+    width: 18px;
+    height: 18px;
+}
+
+.early-access-container button:hover{
+    background-color: #2f7450;
+}
+
+#early-access .early-access-container .ending-message{
+    margin-top: 16px;
+    line-height: 20px;
+    color: #627382;
+    font-size: 16px;
 }
