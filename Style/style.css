@@ -244,3 +244,71 @@ button{
     justify-self: center;
     text-align: center;
 }
+
+#brain-section{
+    padding: 100px 0;
+}
+#brain-section .brain-container{
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.brain-image{ 
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+}
+.solution{
+    flex: 1;
+    gap: 16px;
+}
+
+.solution span{
+    color: #469165;
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 102px;
+    padding-left: 60px;
+    width: 700px;
+}
+
+.solution h2{
+    font-weight: bold;
+    font-size: 48px;
+    padding-left: 60px;
+}
+
+.solution p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 60px;
+
+}
+
+.solution .solution-list{
+    list-style: none;
+    margin-top: 40px;
+    margin-bottom: 102px;
+    padding: 0;
+}
+
+.solution-list li{
+    width: 382px;
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 16px;
+    font-size: 15px;
+    color: #001931;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+t.solution-list li img{
+    width: 20px;
+    height: 20px;
+}
