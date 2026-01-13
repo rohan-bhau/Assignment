@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, sans-serif;
 }
 nav{
     display: flex;
@@ -8,7 +9,6 @@ nav{
     max-width: 1600px;
     height: 92px;
     align-items: center;
-    /*color: #FFFFFF;*/
 }
 nav .logo{
     margin: 16px 16px 0px 120px;
@@ -39,6 +39,9 @@ button{
     border-radius: 4px;
     font-weight: bold;
     cursor: pointer;
+}
+button:hover{
+ background-color: #2f7450;
 }
 #banner{
     background-image: url("../assets/hero-bg.png");
@@ -128,7 +131,6 @@ button{
     margin-top: 30px;
 }
 
-/* Common button */
 .btn{
     display: inline-flex;
     align-items: center;
@@ -140,7 +142,6 @@ button{
     text-decoration: none;
 }
 
-/* Primary button */
 .primary-btn{
     background-color: #3b8f61;
     color: #ffffff;
@@ -151,18 +152,99 @@ button{
     height: 18px;
 }
 
-/* Hover */
 .primary-btn:hover{
     background-color: #2f7450;
 }
 
-/* Secondary button */
 .secondary-btn{
     background-color: transparent;
     color: #ffffff;
     border: 1px solid rgba(255,255,255,0.4);
+    .main-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.play-icon {
+  width: 22px;
+  height: 22px;
+  background: white;
+  clip-path: polygon(30% 20%, 30% 80%, 75% 50%);
 }
 
 .secondary-btn:hover{
     background-color: rgba(255,255,255,0.1);
+}
+#notes {
+    justify-items: center;
+     justify-content: center;
+}
+
+#notes .note-heading{
+ width: 75%;
+ margin: 0px 120px 44px 120px;
+ justify-items: center;
+ justify-content: center;
+ 
+}
+#notes .note-heading h1{
+   padding-top: 60px;
+   justify-content: space-between;
+}
+#notes .note-heading p{
+    margin-top: 16px;
+    color: #627382;
+}
+
+ #notes .note-box{
+    width: 73%;
+    max-width: 1360px;
+    display: flex;
+    gap: 24px;
+}
+
+#notes .note-box .note-card{
+    max-width: 322px;
+    box-shadow: 0 8px 15px 0 #00000027;
+    border-radius: 8px;
+    border: none;
+    padding:  24px ;
+}
+#notes .note-box .note-card .note-card-wrap{
+    background-color: #F95555; 
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    /* justify-content: center;
+    align-items: center; */
+    display: grid;
+    place-items: center;
+    margin: 0px 131px 16px 131px;
+
+}
+
+#notes .note-box .note-card img{
+    max-width: 32px;
+    height: 32px;
+    position: absolute;
+}
+#notes .note-box .note-card h3{
+    color: #001931;
+    margin-bottom: 16px;
+    font-size: 24px;
+    justify-self: center;
+    text-align: center;
+}
+
+#notes .note-box .note-card p{
+    max-width: 274px;
+    line-height: 20px;
+    color: #627382;
+    font-size: 16px;
+    margin: 0px 24px 69px 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    justify-self: center;
+    text-align: center;
 }
